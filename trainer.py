@@ -62,7 +62,7 @@ class Trainer(object):
 
         print('##LOADING SYMBOL ID AND SYMBOL EMBEDDING')
         self.load_embed()
-        self.num_symbols = len(self.symbol2id.keys()) - 1 # 'PAD' id 为self.num_symbols的长度
+        self.num_symbols = len(self.symbol2id.keys()) - 1 # 
         self.pad_id = self.num_symbols
 
         print('##DEFINE FEATURE EXTRACTOR')
@@ -507,7 +507,7 @@ class Trainer(object):
             for e1_rel, tail_candidates in test_candidates[query_].items():
                 head, rela, _ = e1_rel.split('\t')
 
-                true = tail_candidates[0] # 正确答案
+                true = tail_candidates[0] #
                 query_pairs = []
                 query_pairs.append([symbol2id[head], symbol2id[true]])
 
@@ -518,7 +518,7 @@ class Trainer(object):
                     query_right.append(self.ent2id[true])
 
                 for tail in tail_candidates[1:]:
-                    query_pairs.append([symbol2id[head], symbol2id[tail]]) # query pairs 中增加错误答案，只改变ent2
+                    query_pairs.append([symbol2id[head], symbol2id[tail]]) 
                     if meta:
                         query_left.append(self.ent2id[head])
                         query_right.append(self.ent2id[tail])
@@ -549,7 +549,7 @@ class Trainer(object):
 
                     assert scores.shape == (len(query_pairs),)
                 sort = list(np.argsort(scores))[::-1]
-                rank = sort.index(0) + 1 # 找到第一个，即正确的pair的排序
+                rank = sort.index(0) + 1 
                 if rank <= 10:
                     hits10.append(1.0)
                     hits10_.append(1.0)
@@ -636,7 +636,7 @@ class Trainer(object):
                     query_right.append(self.ent2id[true])
 
                 for tail in tail_candidates[1:]:
-                    query_pairs.append([symbol2id[head], symbol2id[tail]]) # query pairs 中增加错误答案，只改变ent2
+                    query_pairs.append([symbol2id[head], symbol2id[tail]]) 
                     if meta:
                         query_left.append(self.ent2id[head])
                         query_right.append(self.ent2id[tail])
@@ -661,7 +661,7 @@ class Trainer(object):
                     assert scores.shape == (len(query_pairs),)
 
                 sort = list(np.argsort(scores))[::-1]
-                rank = sort.index(0) + 1 # 找到第一个，即正确的pair的排序
+                rank = sort.index(0) + 1 
                 if rank <= 10:
                     hits10.append(1.0)
                     hits10_.append(1.0)
