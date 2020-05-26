@@ -1,0 +1,144 @@
+<数据集NELL>： 
+1. 51种关系
+2. 文件：train_tasks.json，dev_tasks.json，test_tasks.json
+	concept:leaguecoaches                                                                                 71
+	concept:airportincity                                                                                 210
+	concept:arthropodandotherarthropod                                                                    222
+	concept:countryoforganizationheadquarters                                                             181
+	concept:vegetableproductioninstateorprovince                                                          56
+	concept:inverseofarthropodcalledarthropod                                                             199
+	concept:agriculturalproductcomingfromvertebrate                                                       125
+	concept:cityradiostation                                                                              99
+	concept:crimeorchargeofperson                                                                         83
+	concept:leaguestadiums                                                                                279
+	concept:agriculturalproducttoattractinsect                                                            97
+	concept:itemexistsatlocation                                                                          110
+	concept:drugpossiblytreatsphysiologicalcondition                                                      92
+	concept:fooddecreasestheriskofdisease                                                                 122
+	concept:athleteledsportsteam                                                                          424
+	concept:bankboughtbank                                                                                59
+	concept:musicgenressuchasmusicgenres                                                                  107
+	concept:politicianusholdsoffice                                                                       222
+	concept:academicfieldsuchasacademicfield                                                              401
+	concept:citytelevisionstation                                                                         316
+	concept:animalsuchasinsect                                                                            291
+	concept:personalsoknownas                                                                             78
+	concept:musicartistmusician                                                                           118
+	concept:hasofficeincountry                                                                            283
+	concept:clothingmadefromplant                                                                         54
+	concept:organizationdissolvedatdate                                                                   51
+	concept:invertebratefeedonfood                                                                        136
+	concept:sportfansincountry                                                                            154
+	concept:politicianrepresentslocation                                                                  260
+	concept:wifeof                                                                                        99
+	concept:countriessuchascountries                                                                      100
+	concept:countryhascitizen                                                                             183
+	concept:animalsuchasfish                                                                              74
+	concept:weaponmadeincountry                                                                           257
+	concept:automobilemakercardealersinstateorprovince                                                    78
+	concept:statehascapital                                                                               151
+	concept:ceoof                                                                                         276
+	concept:teamplaysincity                                                                               338
+	concept:teamhomestadium                                                                               138
+	concept:topmemberoforganization                                                                       364
+	concept:countrystates                                                                                 169
+	concept:stateorprovinceoforganizationheadquarters                                                     120
+	concept:foodcancausedisease                                                                           57
+	concept:organizationnamehasacronym                                                                    61
+	concept:animaleatvegetable                                                                            178
+	concept:fatherofperson                                                                                108
+	concept:countrycapital                                                                                213
+	concept:personmovedtostateorprovince                                                                  225
+	concept:personleadsgeopoliticalorganization                                                           120
+	concept:agriculturalproductgrowinginstateorprovince                                                   79
+	concept:animalthatfeedoninsect                                                                        238
+
+	value: [[u'concept:country:sweden', u'concept:countryhascitizen', u'concept:person:charles002'], ...]
+
+3. 文件： rel2candidates.json
+	concept:leaguecoaches                                                                                 5643
+	concept:airportincity                                                                                 5866
+	concept:arthropodandotherarthropod                                                                    474
+	concept:countryoforganizationheadquarters                                                             16008
+	concept:vegetableproductioninstateorprovince                                                          600
+	concept:inverseofarthropodcalledarthropod                                                             786
+	concept:agriculturalproductcomingfromvertebrate                                                       1689
+	concept:hasofficeincountry                                                                            2794
+	concept:cityradiostation                                                                              2996
+	concept:crimeorchargeofperson                                                                         16072
+	concept:leaguestadiums                                                                                648
+	concept:agriculturalproducttoattractinsect                                                            214
+	concept:itemexistsatlocation                                                                          9903
+	concept:drugpossiblytreatsphysiologicalcondition                                                      631
+	concept:fooddecreasestheriskofdisease                                                                 510
+	concept:athleteledsportsteam                                                                          5988
+	concept:bankboughtbank                                                                                1278
+	concept:musicgenressuchasmusicgenres                                                                  107
+	concept:politicianusholdsoffice                                                                       1145
+	concept:academicfieldsuchasacademicfield                                                              1392
+	concept:citytelevisionstation                                                                         3538
+	concept:animalsuchasinsect                                                                            389
+	concept:personalsoknownas                                                                             10878
+	concept:musicartistmusician                                                                           1454
+	concept:agriculturalproductgrowinginstateorprovince                                                   1212
+	concept:clothingmadefromplant                                                                         667
+	concept:organizationdissolvedatdate                                                                   176
+	concept:invertebratefeedonfood                                                                        1818
+	concept:sportfansincountry                                                                            2100
+	concept:personleadsgeopoliticalorganization                                                           7172
+	concept:politicianrepresentslocation                                                                  9478
+	concept:wifeof                                                                                        9416
+	concept:countriessuchascountries                                                                      2100
+	concept:countryhascitizen                                                                             13275
+	concept:animalsuchasfish                                                                              146
+	concept:weaponmadeincountry                                                                           2646
+	concept:personmovedtostateorprovince                                                                  600
+	concept:automobilemakercardealersinstateorprovince                                                    600
+	concept:statehascapital                                                                               5951
+	concept:animalthatfeedoninsect                                                                        293
+	concept:ceoof                                                                                         7052
+	concept:teamplaysincity                                                                               5797
+	concept:teamhomestadium                                                                               648
+	concept:topmemberoforganization                                                                       9663
+	concept:countrystates                                                                                 2228
+	concept:stateorprovinceoforganizationheadquarters                                                     11557
+	concept:foodcancausedisease                                                                           631
+	concept:organizationnamehasacronym                                                                    8738
+	concept:bankbankincountry                                                                             2370
+	concept:animaleatvegetable                                                                            1967
+	concept:animalsuchasinvertebrate                                                                      786
+	concept:cityhostsattraction                                                                           8995
+	concept:fatherofperson                                                                                7063
+	concept:automobilemakerdealersincountry                                                               1084
+	concept:countrycapital                                                                                5156
+	concept:automobilemakerdealersincity                                                                  5716
+	concept:sportsgamesport                                                                               123
+	concept:sportteam                                                                                     6510
+	concept:cityalsoknownas                                                                               6607
+	concept:athleteinjuredhisbodypart                                                                     299
+	concept:citystadiums                                                                                  1291
+	concept:sportschoolincountry                                                                          2100
+	concept:politicalgroupofpoliticianus                                                                  6006
+	concept:agriculturalproductcamefromcountry                                                            2222
+	concept:winneringame                                                                                  242
+	concept:geopoliticallocationresidenceofpersion                                                        11618
+	concept:sportusesstadium                                                                              648
+	concept:headquarteredin                                                                               5951
+	concept:automakerproducesmodel                                                                        507
+	concept:politicianusendorsespoliticianus                                                              2160
+	concept:parentofperson                                                                                9506
+	concept:teamcoach                                                                                     10569
+	concept:producedby                                                                                    3174
+
+	value: [u'concept:company:foxconn', ...]
+
+4. 文件： e1rel_e2.json
+
+	keys(): 6280  u'concept:university:carnegie_mellon_universityconcept:organizationnamehasacronym'
+	values(): [u'concept:organization:cmu']
+
+5. 文件： ent2ids, relation2ids
+	68544
+
+6. 文件： path_graph
+	181109个tripples
