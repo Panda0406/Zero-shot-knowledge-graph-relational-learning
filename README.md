@@ -10,7 +10,7 @@ PyTorch implementation of zero-shot knowledge graph learning model described in 
 * ``tqdm``
 
 ### Datasets and word embeddings
-* NELL-ZS: Please download([Baidu Yun](https://pan.baidu.com/s/1kxAoMwh3SvnmMh5OFYoKwQ) with code ``pmgr`` or Google Drive) and put it into this directory.
+* NELL-ZS: Please download([Baidu Yun](https://pan.baidu.com/s/1rvhmrl36KCfHYCnggHYl5Q) with code ``be85`` or Google Drive) and put it into this directory.
 * Wiki-ZS: Please download([Baidu Yun](https://pan.baidu.com/s/1GfhHLvd_LS_kfm05fvlKfg) with code ``9zh5`` or Google Drive) and put it into directory ``./origin_data``.
 
 ### Training on NELL-ZS dataset
