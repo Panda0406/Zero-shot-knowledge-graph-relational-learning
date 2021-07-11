@@ -14,7 +14,10 @@ def Extractor_generate(dataset, batch_size, symbol2id, ent2id, e1rel_e2, few, su
 
     t_num = list()
     for k in task_pool:
-        v = min(len(rel2candidates[k]), 1000)
+        if len(rel2candidates[k]) <= 20:
+            v = 0
+        else:
+            v = min(len(rel2candidates[k]), 1000)
         t_num.append(v)
     t_sum = sum(t_num)
     probability = [float(item)/t_sum for item in t_num]
