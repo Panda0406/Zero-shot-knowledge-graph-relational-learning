@@ -29,9 +29,6 @@ def Extractor_generate(dataset, batch_size, symbol2id, ent2id, e1rel_e2, few, su
         for _ in range(sub_epoch):
             candidates = rel2candidates[query]
 
-            if len(candidates) <= 20:
-                continue
-
             train_and_test = train_tasks[query]
 
             random.shuffle(train_and_test)
